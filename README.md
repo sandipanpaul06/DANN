@@ -56,9 +56,9 @@ python DANN.py \
     --src_neut  ./path/to/src_neutral.npy \
     --tgt_sweep ./path/to/tgt_sweep.npy \
     --tgt_neut  ./path/to/tgt_neutral.npy \
-    --src_train 5000 \
+    --src_train 1000 \
     --src_val 1000 \
-    --tgt_train 5000 \
+    --tgt_train 1000 \
     --tgt_val 1000 \
     --epochs 50 \
     --batch 32
